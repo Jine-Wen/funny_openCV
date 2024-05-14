@@ -87,8 +87,11 @@ cap.release()
 cv2.destroyAllWindows() 
 ```
 這邊的話只是將辨識人臉的模型改成車輛的模型去偵測車輛，然後偵測的影像是用公共監視器而已，大家可以嘗試看看，基本上跟人臉辨識一模一樣喔!!
-![image](image/2.gif)
-可以發現成果的準確率其實很低，有時候會偵測到機車，汽車的準度也不;高主要是這個模型訓練的圖片是用白天的圖片，另外就是每個應用的方式都應該Train新的模型來使用，如果要提高準確率的話當然就是將監視器畫面轉成圖片下去訓練，並調整參數，有興趣的人可以試試看~
+
+![image](2.gif)
+
+可以發現成果的準確率其實很低，有時候會偵測到機車，汽車的準度也不高；主要是這個模型訓練的圖片是用白天的圖片，另外就是每個應用的方式都應該Train新的模型來使用，如果要提高準確率的話當然就是將監視器畫面轉成圖片下去訓練，並調整參數，有興趣的人可以試試看~
 # 參考文章
+這邊再次感謝**Steam教育學習網**在上面學習了很多
 * [OpenCV 汽車偵測](https://steam.oxxostudio.tw/category/python/ai/ai-cars-dectection.html)
 * [OpenCV 人臉偵測](https://steam.oxxostudio.tw/category/python/ai/ai-face-dectection.html)
